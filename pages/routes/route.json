@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "like-cmp": "/components/like/index",
+    "date-cmp": "/components/date/index",
+    "movie-cmp": "/components/movie/index",
+    "view-cmp": "/components/nav/index"
+  }
+}

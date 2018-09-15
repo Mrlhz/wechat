@@ -1,0 +1,7 @@
+<!--components/nav/index.wxml-->
+
+<view class='container'>
+  <view class="flex-item demo-text-1">A</view>
+  <view class="flex-item demo-text-2">B</view>
+  <view class="flex-item demo-text-3">C</view>
+</view>

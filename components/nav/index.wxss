@@ -1,0 +1,24 @@
+/* components/nav/index.wxss */
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item{
+  width: 200rpx;
+  height: 300rpx;
+  font-size: 26rpx;
+}
+
+.demo-text-1{
+  background-color: green;
+  color: #fff;
+}
+.demo-text-2{
+  background-color: blue;
+  color: #fff;
+}
+.demo-text-3{
+  background-color: #ccc;
+}
+

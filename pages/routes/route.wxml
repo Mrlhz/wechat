@@ -1,0 +1,9 @@
+<!--pages/routes/route.wxml-->
+<view class='container'>
+  <view class='header'>
+    <date-cmp class='date' />
+    <like-cmp class='like' />
+  </view>
+  <movie-cmp />
+  <view-cmp />
+</view>

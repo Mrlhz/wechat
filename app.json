@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/routes/route"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序学习之路",
+    "navigationBarTextStyle": "black"
+  }
+}
