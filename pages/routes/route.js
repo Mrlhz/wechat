@@ -3,6 +3,9 @@ import {HTTP} from '../../util/http.js'
 // import { config } from '../../util/config.js'
 var http = new HTTP()
 
+import { ClassicModel } from '../../models/classic.js'
+let classicModel = new ClassicModel()
+
 Page({
 
   /**
@@ -16,17 +19,31 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    // classicModel.getLatest((res) => {
+    //   console.log('data', res.data.index)
+    //   this.setData({
+    //     classic: res.data
+    //   })
+    // })
     var params = {
-      url: 'classic/latest',
+      url: 'book/search?summary=1',
+      data: {
+        q: 'python',
+        start: 0
+      },
       success: (res) => {
-        console.log(res)
+        var { data: { books: book, count: count, total: total } } = res
+        console.log(book[0], total, count)
+        this.setData({
+          books: book
+        })
       },
       fail: (err) => {
-        console.log('err',err)
+        console.log('err', err)
       }
     }
     // console.log(params)
-    http.request(params)
+    // http.request(params)
   },
 
   /**

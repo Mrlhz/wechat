@@ -1,0 +1,11 @@
+<!--pages/book/book.wxml-->
+<view class='header'>前端技术书单</view>
+<view class='books-container'>
+  <view class='book' wx:for-items="{{books}}" wx:for-item="item" wx:key="{{item.isbn}}">
+    <image src="{{item.image}}"></image>
+    <view class='description'>
+      <view class="title">{{item.title}}</view>
+      <view class="author">{{item.author}}</view>
+    </view>
+  </view>
+</view>

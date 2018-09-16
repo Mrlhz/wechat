@@ -1,11 +1,32 @@
 {
   "pages": [
-    "pages/routes/route"
+    "pages/routes/route",
+    "pages/book/book"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "小程序学习之路",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "position": "bottom",
+    "color": "#999",
+    "selectedColor": "#62bf82",
+    "list": [
+      {
+        "pagePath": "pages/routes/route",
+        "text": "首页",
+        "iconPath": "images/icon/home1.png",
+        "selectedIconPath": "images/icon/home.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "计划",
+        "iconPath": "images/icon/book1.png",
+        "selectedIconPath": "images/icon/book.png"
+      }
+    ]
   }
 }

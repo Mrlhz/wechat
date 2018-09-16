@@ -2,7 +2,7 @@
 <view class='container'>
   <view class='header'>
     <date-cmp class='date' />
-    <like-cmp class='like' />
+    <like-cmp class='like' like="{{classic.like_status}}" count="{{classic.fav_nums}}" />
   </view>
   <movie-cmp />
   <view-cmp />
