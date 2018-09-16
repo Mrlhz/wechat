@@ -19,6 +19,9 @@
 ## 林间有风
 [Blink API](http://bl.7yue.pro/dev/index.html)
 
+## 读书列表
+[前端技术书](https://github.com/jobbole/awesome-web-dev-books)
+
 ```
 top250
 http://api.douban.com/v2/movie/top250?start=0&count=30
