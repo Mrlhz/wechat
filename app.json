@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/routes/route",
-    "pages/book/book"
+    "pages/book/book",
+    "pages/list/list"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -26,6 +27,12 @@
         "text": "计划",
         "iconPath": "images/icon/book1.png",
         "selectedIconPath": "images/icon/book.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "list",
+        "iconPath": "images/icon/list1.png",
+        "selectedIconPath": "images/icon/list.png"
       }
     ]
   }
