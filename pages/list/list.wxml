@@ -1,0 +1,4 @@
+<!--pages/list/list.wxml-->
+<view wx:for-items="{{lists}}" wx:item="{{item}}" wx:key="{{index}}">
+<view>{{item}}</view>
+</view>
