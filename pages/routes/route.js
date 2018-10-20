@@ -6,21 +6,22 @@ var http = new HTTP()
 import { ClassicModel } from '../../models/classic.js'
 let classicModel = new ClassicModel()
 
+import {classic} from '../../data/classic.js'
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    classic:classic.data
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // classicModel.getLatest((res) => {
-    //   console.log('data', res.data.index)
+    // classicModel.getLatest((res) => {                                                                             
+    //   console.log('data', res)
     //   this.setData({
     //     classic: res.data
     //   })
