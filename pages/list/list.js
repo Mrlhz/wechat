@@ -1,5 +1,6 @@
 // pages/list/list.js
 var data = require('../../data/app.js')
+import {classic} from '../../data/classic.js'
 
 Page({
 
@@ -7,27 +8,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    classic: classic.data,
+    type: ['/images/movie@tag.png', '/images/music@tag.png','/images/essay@tag.png']
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-    console.log(data.data)
-    var { data: { lst: lst } } = data
-    console.log(lst)
-    var result = []
-    lst.map(function(item) {
-      for (let detail of item.detail) {
-        console.log(detail.groupId)
-        result.push(detail.groupId)
-        console.log(result)        
-      }
-    })
-    var result = [...new Set(result)]
-    this.setData({
-      lists: result
+    this.data.classic.map( item => {
+      console.log(item.content)
     })
   },
 
