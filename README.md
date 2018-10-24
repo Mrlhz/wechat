@@ -11,6 +11,8 @@
 ### [iView Weapp](https://github.com/TalkingData/iview-weapp)微信小程序 UI 组件库
 ### [图标库](http://iconfont.cn)
 
+- [微信小程序 bug 集中营](https://juejin.im/post/5bb86a62f265da0adc18e089)
+
 - [wepy商场](https://github.com/dyq086/wepy-mall)
 
 ## Flex
